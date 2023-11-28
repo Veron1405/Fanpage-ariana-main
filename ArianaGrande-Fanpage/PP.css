@@ -1,0 +1,654 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    width: auto
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+#header {
+    background-color: white;
+    padding: 30px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 9rem;
+}
+
+
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
+
+}
+
+.logo {
+    width: 169px;
+    height: 51.95px;
+    flex-shrink: 0;
+}
+
+.fa-brands {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+}
+
+a {
+    color: #D49270;
+}
+
+.redes {
+    width: 20%;
+}
+
+.titulo {
+    color: #BD7D62;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 15px;
+    text-align: left;
+    width: 75%;
+    margin-left: 150px;
+}
+
+.texto-truly {
+    width: 35vw;
+    flex-shrink: 0;
+    color: #5F6368;
+    text-align: left;
+    margin: 45px 15px 15px 150px;
+    font-size: 20px;
+}
+
+.botao-ouvir button {
+    border-radius: 36px;
+    background: #D8B186;
+    width: 109px;
+    height: 32px;
+    flex-shrink: 0;
+    color: white;
+    margin-top: 25px;
+}
+
+.container-truly {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px 100px;
+
+
+
+}
+
+.quadrado1 {
+    width: 50vw;
+    margin-left: 20px;
+
+}
+
+.quadrado2 {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+}
+
+.album-truly {
+    width: 350px;
+    height: auto;
+}
+
+
+
+.videos-linha {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 354px;
+    height: 199px;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 20px;
+}
+
+.videos-clipes {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    justify-content: center;
+
+}
+
+.video img {
+    border-radius: 4px;
+    transition: width 0.3s;
+}
+
+.botao-ver-mais button {
+    border-radius: 36px;
+    background: #D8B186;
+    width: 109px;
+    height: 32px;
+    flex-shrink: 0;
+    color: white;
+    margin-top: 25px;
+}
+
+.grammy {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-grammy img {
+    width: 97.825px;
+    height: auto;
+    flex-shrink: 0;
+    margin: 80px 100px;
+    margin-right: 90px;
+}
+
+.news {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.titulo-news {
+    color: #BD7D62;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.texto-news {
+    color: #5F6368;
+    text-align: center;
+    font-size: 20px;
+    text-align: center;
+    width: 500px;
+    margin: 45px 15px 150px;
+}
+
+.titulo-noticia {
+    color: #F00;
+    font-family: Arial;
+    font-size: 22px;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.imagem-noticia img {
+    width: 265px;
+    height: 136px;
+
+}
+
+.imagem-noticia {
+    width: 300px;
+    height: 150px;
+    align-items: center;
+    margin: 0 20px;
+    margin-top: 10px;
+
+}
+
+
+.quadradoVermelho {
+    width: 2px;
+    height: 69px;
+    flex-shrink: 0;
+    background-color: #F00;
+    margin-right: 10px;
+}
+
+.retangulo {
+    width: 300px;
+    height: 366px;
+    flex-shrink: 0;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 30px;
+}
+
+.retangulos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-noticia {
+    color: #5F6368;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0 20px;
+}
+
+.p {
+    width: 10px;
+    font-weight: 500;
+}
+
+.img-polaroid {
+    width: 365px;
+    height: 456.858px;
+    flex-shrink: 0;
+}
+
+.polaroid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+
+}
+
+.texto-polaroid {
+    width: 500px;
+    height: 139px;
+    flex-shrink: 0;
+    text-align: left;
+    margin: 40px;
+    color: #5F6368;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.titulo-form {
+    color: #BD7D62;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+input {
+    border-radius: 4px;
+    background: #F7EBDB;
+    width: 470px;
+    height: 48px;
+    flex-shrink: 0;
+    border: none;
+}
+
+textarea {
+    border-radius: 4px;
+    background: #F7EBDB;
+    width: 470px;
+    height: 197px;
+    flex-shrink: 0;
+    border: none;
+}
+
+.forms {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 80px 100px;
+}
+
+.form-contato {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+form {
+    display: grid;
+}
+
+.botao-enviar button {
+    border-radius: 36px;
+    background: #D8B186;
+    width: 109px;
+    height: 32px;
+    flex-shrink: 0;
+    color: white;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+footer {
+    background-color: #f7efe3;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.noticias {
+    opacity: 0;
+
+    transform: translateX(-100%);
+    transition: all 2s;
+}
+
+.mostrar {
+
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 2s;
+}
+
+.video {
+    width: 450px;
+    transition: width 0.3s;
+}
+
+.video:hover {
+    width: 550px;
+
+
+}
+
+
+.albumTruly {
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.mostrar {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+@media screen and (max-width: 376px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-family: 'Montserrat';
+        width: auto;
+    }
+
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #header {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 1rem;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: space-around;
+        margin: 15px;
+        font-size: 18px;
+    }
+
+    .logo {
+        width: 120px;
+        height: auto;
+    }
+
+    .form-contato {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 1rem;
+    }
+
+    .fa-brands {
+        width: 20px;
+        height: 20px;
+    }
+
+    a {
+        color: #D49270;
+    }
+
+    .botao-ouvir button {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-align: center;
+        margin: 15px;
+        padding: 5px;
+    }
+
+    .botao-ver-mais button {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-align: center;
+        margin: 15px;
+    }
+
+    input {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    textarea {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .botao-enviar button {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-align: center;
+        margin: 15px;
+    }
+
+    .quadrado1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .img-polaroid {
+        width: 100%;
+        height: auto;
+        margin: 15px;
+    }
+
+    .noticias {
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0);
+        transition: all 1s;
+    }
+
+    .seta {
+        display: none;
+    }
+
+    .redes {
+        display: none;
+    }
+
+    .container1 {
+        margin: 20px;
+    }
+
+    .container-truly {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .videos-clipes {
+        margin: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .form {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .botao-enviar {
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+    }
+
+    .imagem-forms {
+        display: none;
+    }
+
+    .titulo-form {
+        margin-bottom: 10px;
+    }
+
+    .titulo {
+        font-size: 30px;
+        margin-top: 10px;
+        height: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 15px;
+    }
+
+    .titulo-news {
+        margin-top: 220px;
+    }
+
+    .texto-truly {
+        margin: 0px;
+    }
+
+    .texto-polaroid {
+        margin: 30px;
+        justify-content: center;
+        text-align: justify;
+        align-items: center;
+    }
+
+    .texto-news {
+        margin: 30px;
+        justify-content: center;
+        text-align: justify;
+        align-items: center;    
+    }
+
+    .grammy {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-grammy {
+        width: 30%;
+        height: auto;
+    }
+
+    .texto-noticia {
+        margin: 10px;
+        padding: 10px;
+    }
+}

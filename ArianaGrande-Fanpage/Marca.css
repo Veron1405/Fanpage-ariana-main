@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    width: auto
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+#header {
+    background-color: white;
+    padding: 30px;
+
+    margin: 0 3rem;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
+
+}
+
+.logo {
+    width: 169px;
+    height: 51.95px;
+    flex-shrink: 0;
+}
+
+.fa-brands {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+}
+
+a {
+    color: #D49270;
+}
+
+.redes {
+    width: 20%;
+}
+
+.titulo {
+    color: #D8B186;
+    font-size: 30px;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: 50px;
+}
+
+
+.titulo-1 {
+    color: #BD7D62;
+    font-family: Montserrat;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 55px;
+}
+
+
+.texto-turne {
+    color: #5F6368;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.container-tudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 9rem;
+
+}
+
+.container1 {
+    margin: 80px 0px;
+}
+
+.imagem1 {
+    margin: 40px 0;
+}
+
+
+.container-gods {
+
+    align-items: center;
+    margin: 0 9rem;
+
+}
+
+.tudo-gods {
+    display: flex;
+    justify-content: center;
+
+}
+
+.texto-gods {
+    color: #5F6368;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 544px;
+    align-items: center;
+    height: 214px;
+    margin-top: 30px
+}
+
+.perfumes-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15rem;
+    margin-top: 100px;
+}
+
+.texto-perfume {
+    color: #5F6368;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 327px;
+    height: 303px;
+    flex-shrink: 0;
+}
+
+.img-clouds {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15rem;
+    margin-top: 100px;
+}
+
+.texto-perfume1 {
+    color: #5F6368;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 575px;
+    height: 177px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.perfumes-2 {
+    display: flex;
+
+    align-items: center;
+    margin: 0 15rem;
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #f7efe3;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 376px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat';
+        width: auto;
+    }
+
+
+    img {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+
+    }
+
+    a {
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #header {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 1rem;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: space-around;
+        margin: 15px;
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 120px;
+        height: auto;
+    }
+
+
+    .container,
+    .container-tudo,
+    .container1,
+    .container-gods,
+    .perfumes-1,
+    .img-clouds,
+    .perfumes-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 1rem;
+    }
+
+
+    .fa-brands {
+        width: 20px;
+        height: 20px;
+    }
+
+    a {
+        color: #D49270;
+    }
+
+    .titulo,
+    .titulo-1,
+    .texto-turne,
+    .texto-gods,
+    .texto-perfume,
+    .texto-perfume1 {
+        font-family: 'Montserrat';
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+
+    .redes {
+        display: none;
+    }
+
+    .titulo {
+        font-size: 30px;
+        margin-top: 10px;
+        height: auto;
+        text-align: center;
+    }
+
+    .texto-turne {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .texto-gods {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+        display: none;
+    }
+
+    .texto-perfume {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+        height: auto;
+    }
+
+    .texto-perfume1 {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .titulo-1 {
+        margin-bottom: -10px;
+    }
+
+    .img-perfume {
+        width: 70%;
+        height: auto;
+    }
+
+    .img1 {
+        width: 70%;
+        height: auto;
+    }
+
+    .img2 {
+        width: 70%;
+        height: auto;
+    }
+
+    .container1 {
+        margin: 20px;
+    }
+
+    .perfumes-1 {
+        margin: 30px;
+    }
+
+    .perfumes-2 {
+        margin: 30px;
+    }
+
+    .seta {
+        display: none;
+    }
+}

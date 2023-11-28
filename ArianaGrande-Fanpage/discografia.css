@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    width: auto
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-VariableFont_wght.ttf);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+#header {
+    background-color: white;
+    padding: 30px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+}
+
+
+.menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+
+
+}
+
+.logo {
+    width: 169px;
+    height: 51.95px;
+    flex-shrink: 0;
+}
+
+.fa-brands {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+}
+
+a {
+    color: #D49270;
+}
+
+.redes {
+    width: 20%;
+}
+.titulo {
+    color: #D8B186;
+    font-size: 30px;
+    font-style: normal;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 40px;
+    height: 50px;
+}
+
+/* DISCO RIGHT */
+
+
+.quadrado2 {
+    justify-content: right;
+    align-items: center;
+    text-align: right;
+}
+
+.titulo-disco1 {
+    color: #BD7D62;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.texto-disco1 {
+    color: #5F6368;
+    text-align: right;
+    width: 600px;
+    font-size: 22px;
+
+}
+
+.container-disco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+    height: 450px;
+}
+
+
+
+/* DISCO LEFT */
+
+.quadrado3 {
+    justify-content: left;
+    align-items: center;
+    text-align: right;
+}
+
+.titulo-disco4 {
+    color: #BD7D62;
+    font-size: 25px;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+.texto-disco4 {
+    color: #5F6368;
+    text-align:left;
+    width: 600px;
+    font-size: 22px;
+
+}
+
+.container-disco {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 9rem;
+    height: 450px;
+}
+
+footer{
+    background-color: #f7efe3;
+    padding: 20px;
+   justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quadrado4 {
+    opacity: 0;
+ filter: blur(15px);
+   transform: translateX(-100%);
+    transition: all 1s;
+}
+
+.show {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s;   
+}
+
+.quadrado1 {
+    opacity: 0;
+ filter: blur(15px);
+   transform: translateX(100%);
+    transition: all 1s;
+}
+
+.mostrar{
+    filter: blur(0);
+    opacity: 1;
+    transform: translateX(0);
+    transition: all 1s;   
+}
+
+@media screen and (max-width: 376px) {
+    * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat';
+        width: auto;
+    }
+
+
+    img {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+
+    }
+
+    a {
+        text-decoration: none;
+        padding: 5px;
+    }
+
+    html {
+        scroll-behavior: smooth;
+    }
+    #header {
+        padding: 20px;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 1rem;
+    }
+
+    .menu {
+        width: 100%;
+        justify-content: space-around;
+        margin: 15px;
+        font-size: 15px;
+    }
+
+    .logo {
+        width: 120px;
+        height: auto;
+    }
+
+    .fa-brands {
+        width: 20px; 
+        height: 20px; 
+    }
+
+    .redes {
+        width: 100%; 
+        display: none;
+    }
+
+    .titulo {
+        font-size: 30px; 
+        margin-top: 20px; 
+        height: auto; 
+        text-align: center; 
+        margin-bottom: 10px;
+    }
+
+
+    .container-disco {
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        margin: 0 1rem; 
+        height: auto;  
+    }
+
+    footer {
+        padding: 10px; 
+    }
+
+    .texto-disco1 {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .texto-disco4 {
+        font-size: 15px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .titulo-disco1 {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .titulo-disco4 {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu {
+        font-size: 15px;
+    }
+
+    .quadrado2 {
+        padding: 20px;
+    }
+
+    .quadrado3 {
+        padding: 20px;
+    }
+
+    .seta {
+        display: none;
+    }
+}
