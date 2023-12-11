@@ -210,6 +210,9 @@ footer{
     }
     #header {
         padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .container {
@@ -224,6 +227,7 @@ footer{
         justify-content: space-around;
         margin: 15px;
         font-size: 15px;
+        display: flex;
     }
 
     .logo {
